@@ -1,6 +1,18 @@
 # Ms
 
-**TODO: Add description**
+![CI](https://github.com/nmbrone/ms/workflows/CI/badge.svg)
+
+A tiny millisecond conversion utility for elixir.
+
+## Examples
+
+```elixir
+import Ms
+
+ms("1s") # 1000
+ms("2 seconds") # 2000
+ms({1, :second}) # 1000
+```
 
 ## Installation
 
